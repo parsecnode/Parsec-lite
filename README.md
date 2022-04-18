@@ -6,7 +6,7 @@ Portable on Windows - stores wallet files, logs, config file in the same folder 
 
 Comes with config containing the list of remote nodes.
 
-It can import wallet files from [classic parsec wallet](https://github.com/parsecnode/parsecwallet) but it will take several minutes to refresh, and new wallet file will be incompatible with classic wallet.
+It can import wallet files from [classic parsec wallet](https://github.com/parsecnode/parsecwallet) but it will take several minutes to refresh, and <b>new wallet file will be incompatible with classic wallet</b>.
 
 
 **1. Clone wallet sources**
@@ -15,11 +15,7 @@ It can import wallet files from [classic parsec wallet](https://github.com/parse
 git clone https://github.com/parsecnode/Parsec-lite.git
 ```
 
-**2. Delete Current cryptonote directory and set symbolic link to coin sources at the same level as `src`. For example:**
-
-```
-cd Parsec-lite && sudo rm -R cryptonote
-```
+**2. Set symbolic link to coin sources at the same level as `src`. For example:**
 
 ```
 ln -s ~/parsec/cryptonote ~/Parsec-lite/
