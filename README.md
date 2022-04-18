@@ -35,4 +35,5 @@ git submodule add https://github.com/parsecnode/parsec.git cryptonote
 mkdir build && cd build && cmake .. && make
 ```
 BUILD FILES WILL BE LOCATED WITHIN THE FOLLOWING DIRECTORY: ~/Parsec-lite/build/
+  
   *Run Parsec Wallet (linux) in command line: ./ParsecLite
