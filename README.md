@@ -1,6 +1,6 @@
 ![image](https://github.com/parsecnode/parsec-icons/blob/main/PARSEC-zero_banner.png?raw=true)
 
-<b> This wallet will render any previous .wallet files to be incompatible with previous wallets. You should only use this wallet if you don't want to run a local node, don't intend on mining with your wallet, and aren't already using the classic wallet found at: https://github.com/parsecnode/parsecwallet.git</b>
+<b> This wallet will render any previous .wallet files to be incompatible with previous wallets. You should only use this wallet if you don't want to run a local node, don't intend on mining with your wallet, and aren't already using the classic wallet found at: https://github.com/parsecnode/parsecwallet.git . You can always restore a wallet made incompatible by using your mnemonic seed. Just make sure to format your 25 word phrase, seperating your words with a single space between words.</b>
 
 This is the lite version of Parsec GUI. It works via remote daemon and doesn't store blockchain on your PC. The remote nodes are rewarded for their service. Parsec wallets, connected to masternode, are paying small additional fee (0.25% from the amount of transaction) to that node when are sending transactions through it. These fees are supposed to help to cover the costs of operating Parsec Nodes.
 
